@@ -1,0 +1,6 @@
+1.创建repository(仓库).  把要管理的东西都放入这个里面.
+	git init
+2.添加一个文件到git仓库(该文件必须在这个仓库下面了)可以重复执行,可以一次添加多个文件,中间空格
+	git add filename(全名)
+3.提交到gitrepository.
+	git commit [-m message)]  -m为参数,对这次这次提交的描述.

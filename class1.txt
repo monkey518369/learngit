@@ -10,8 +10,13 @@
 5.找回之前版本.
 	git log 查看版本信息git log --preety=oneline
 	git reset --hard head^^^^^(几个^就是回退几次,可以用~n直接回退到n个版本)
-	
 	git reflog  查看之前的命令可以用  git reset --hard  commit_id来还原回去
+
+	
+6.还原,
+	对于工作区的东西可以用  git checkout  --filename来还原
+	对于暂存区的东西可以用 git reset head  filename 来还原到工作区,在从工作区里还原.
+	
 6.在github上面建立远程库,并且把本地的repository推送到github上面.
 	git remote add origin git@github.com:monkey518369/xxxxx.git(本地repository关联到github上面)
 	

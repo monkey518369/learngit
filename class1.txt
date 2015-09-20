@@ -4,3 +4,9 @@
 	git add filename(全名)
 3.提交到gitrepository.
 	git commit [-m message)]  -m为参数,对这次这次提交的描述.
+	
+4.查看git状态(有什么文件已经修改过了(modify),但是还没有提交,新增加了什么文件(untracked))
+	git status
+5.找回之前版本.
+	git log 查看版本信息git log --preety=oneline
+	git reset --hard head^^^^^(几个^就是回退几次,可以用~n直接回退到n个版本)

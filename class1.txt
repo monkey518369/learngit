@@ -10,3 +10,8 @@
 5.找回之前版本.
 	git log 查看版本信息git log --preety=oneline
 	git reset --hard head^^^^^(几个^就是回退几次,可以用~n直接回退到n个版本)
+6.在github上面建立远程库,并且把本地的repository推送到github上面.
+	git remote add origin git@github.com:monkey518369/xxxxx.git(本地repository关联到github上面)
+	
+	git push [-u] origin master(把本地repository种的内容推送到github上面去,这样github上面就和本地一样了 -u是在第一次的时候用的,以后不用了)
+	
